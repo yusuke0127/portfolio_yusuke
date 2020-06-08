@@ -1,15 +1,11 @@
-// Libraries import
-@import "font-awesome-sprockets";
-@import "bootstrap-sprockets";
-@import "font-awesome";
-@import "bootstrap";
-
-// General Style Variables
-@import "config/variables";
+// Graphical variables
+@import "config/fonts";
+@import "config/colors";
 @import "config/bootstrap_variables";
 
-// Our CSS
-@import "layout/*";
-@import "components/*";
-@import "pages/*";
-@import "vendor/*";
+// External libraries
+// Using CDN for bootrap and font-awesome
+
+// Your CSS partials
+@import "components/index";
+@import "pages/index";
