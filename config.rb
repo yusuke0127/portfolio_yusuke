@@ -52,7 +52,6 @@ activate :sprockets
 
 # Build-specific configuration
 configure :build do
-  config[:sass_assets_paths] << Bootstrap.stylesheets_path
   # For example, change the Compass output style for deployment
   # activate :minify_css
 
