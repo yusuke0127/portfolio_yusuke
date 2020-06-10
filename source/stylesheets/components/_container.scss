@@ -1,0 +1,67 @@
+/*Header*/
+.content-container {
+  height: 100vh;
+  position: relative;
+  background-color: light-gray;
+  text-align: center;
+}
+
+.header-container {
+   margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 64%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  // background-image: asset-url("../images/laptop.png");
+  //  background-image: asset-url('../../images/laptop.png');
+  // background-size: cover;
+}
+
+.header-container h3 {
+  font-size: 64px;
+}
+/*Project*/
+
+.project-container img {
+  width: 420px;
+
+}
+.project-list {
+  padding-top: 64px;
+  width: 80vw;
+  margin: 0 auto;
+  text-align: center;
+}
+.project-container {
+  margin: 0 auto;
+  display: flex;
+  // width: 90vw;
+  margin-top: 64px;
+  align-items: center;
+}
+
+.project-info {
+  text-align: right;
+    /* width: 50%; */
+  margin-left: 24%;
+}
+
+.project-info-mid {
+  text-align: left;
+  margin-right: 24%;
+}
+
+.project-info h3 {
+  font-size: 24px;
+}
+.project-info p {
+  font-size: 16px;
+}
+.project-info-mid h3 {
+  font-size: 24px;
+}
+.project-info-mid p {
+  font-size: 16px;
+}
+
