@@ -18,3 +18,6 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 ## Middleman sprockets
 gem 'middleman-sprockets'
+
+# Middleman Metaman
+gem 'middleman-metaman'
