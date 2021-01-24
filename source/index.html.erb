@@ -1,72 +1,90 @@
 <div class="content-container">
-  <div class="header-container">
-    <h3>Yusuke Ishida</h3>
-    <p>Full-Stack Developer</p>
+  <div class="header-container" id="home">
+    <h3>Hi! I'm <span class="highlight">Yusuke Ishida</span></h3>
+    <p>Full-Stack Web Developer</p>
   </div>
 </div>
-<div class="about-me" id="about">
-  <img src="images/lewagon_family.jpg" alt="">
-  <h2>About Me</h2>
-  <p>My name is Yusuke(I'm the one with glasses holding a laptop in the photo above), a Full Stack Developer based in Tokyo. I was born in Japan but was raised in the Philippines. I came back here 5 years ago to learn about the language and the culture.</p>
-  <p>My interest in coding started in my previous job where I was doing some excel work again and again which was dreadful(As some of guys probably know). So I decided to look for ways to automate it and that's where I started to learn about programming.</p>
-  <p>At first, it was a lot of copypasting which worked but made me limited on what I can do so I started looking for courses online and offline.</p>
-  <p>That's where I found Le Wagon! After some research, I decided that they are the right match for me and enrolled for their Web Development Course. The photo above is our batch photo.</p>
-</div>
-<div class="container text-center d-flex flex-column mt-5 p-3" id="project">
-  <h2 class="my-3">Projects</h2>
+<div class="card-list" id="projects" >
   <div class="container my-3">
-    <div class="row align-items-center my-3">
-      <div class="col-sm-4">
-        <div class="project-img">
-          <img src="https://media.giphy.com/media/SwHhHwSxOq1PjHCxI8/giphy.gif" alt="" class="happy-img">
+  <h3>Projects</h3>
+    <div class="row">
+      <div class="col-sm my-3">
+        <div class="card-item 1">
+          <a class="project-link" href="https://yondajp.herokuapp.com/posts" target="_blank">
+            <div class="card_image">
+              <img src="images/Yonda.png"/>
+              <div class="overlay">
+                <div class="text" id="yonda">
+                  Yonda</br>
+                  A web app where you can share your thoughts
+                </div>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
+    </div>
+    <div class="row my-3">
       <div class="col-sm my-3">
-        <div class="project-info">
-          <h3>Happy <a class="btn btn-ghost" href="https://happy-mood.herokuapp.com/" target="_blank">link</a></h3>
-          <p>A mood tracker app that can log the users mood in relation to activity in anytime of the day. We also integrated the Line API that allows the user to connect to their friends and check their moods for the day</p>
-          <p><i class="fab fa-js-square"></i><i class="far fa-gem"></i><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i><i class="fab fa-github-square"></i><i class="fab fa-line"></i></p>
+        <div class="card-item 2">
+          <a class="project-link" href="https://happy-mood.herokuapp.com/" target="_blank">
+            <div class="card_image">
+              <img src="images/Happy.png" alt="Happy Homescreen"  />
+              <div class="overlay">
+                <div class="text" id="happy">
+                  Happy</br>
+                  A progressive web app for tracking mood
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-sm my-3">
+        <div class="card-item 3">
+          <a class="project-link" href="https://pick-a-sitter.herokuapp.com" target="_blank">
+            <div class="card_image">
+              <img src="images/Pick-a-Sitter.png" alt="" />
+              <div class="overlay">
+                <div class="text" id="pick-a-sitter">
+                  Pick-A-Sitter</br>
+                  A marketplace app for babysitters
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>   
+    </div>
+    <div class="row">
+      <div class="col-sm my-3">
+        <div class="card-item 4">
+          <a class="project-link" href="https://top-250-movies-api.herokuapp.com" target="_blank">
+            <div class="card_image">
+              <img src="images/top250-movies-api.png" alt="" />
+
+              <div class="overlay">
+                <div class="text" id="movies-api">
+                  Top 250 movies API</br>
+                  An API for top 250 movies with an app to test endpoints
+                </div>
+              </div>
+            </div>
+          </a>
         </div>
       </div>
     </div>
   </div>
-  <div class="container my-3">
-    <div class="row align-items-center my-3">
-      <div class="col-sm my-3">
-        <div class="project-info-mid">
-          <h3>Pick-A-Sitter <a class="btn btn-ghost" href="https://pick-a-sitter.herokuapp.com/" target="_blank">link</a></h3>
-          <p>A marketplace app for babysitters</p>
-          <p><i class="fab fa-js-square"></i><i class="far fa-gem"></i><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i><i class="fab fa-github-square"></i></p>
-        </div>
-      </div>
-      <div class="col-sm">
-        <div class="project-img">
-          <img src="https://media.giphy.com/media/WTGBfd02zYZy4jhmv3/giphy.gif" width="100%" alt="">
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="container my-3">
-    <div class="row align-items-center my-3">
-      <div class="col-sm">
-        <div class="project-img">
-          <img src="https://media.giphy.com/media/kI8ziCvzJZGKyPoVOM/giphy.gif" width="100%" alt="">
-        </div>
-      </div>
-      <div class="col-sm my-3">
-        <div class="project-info">
-          <h3>Just-Drink-It <a class="btn btn-ghost" href="https://just-drink-it.herokuapp.com/cocktails" target="_blank">link</a></h3>
-          <p>A cocktail making app where you can create your own and add ingredients with photo upload function</p>
-          <p><i class="fab fa-js-square"></i><i class="far fa-gem"></i><i class="fab fa-html5"></i><i class="fab fa-css3-alt"></i><i class="fab fa-github-square"></i></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <h3 class="mt-3">Expect more to come!</h3>
-</div>
+  <%# <div class="about-me"> %>
+  <%# </div> %>
 <div class="footer">
   <div class="footer-links" id="contact">
     <a href="https://github.com/yusuke0127" target="_blank"><i class="fab fa-github"></i></a>
+
+    <a href="https://www.instagram.com/ishidayusuke_/" target="_blank"><i class="fab fa-instagram"></i></a>
     <a href="mailto: ishidayusuke01@gmail.com"><i class="fas fa-envelope"></i></a>
     <a href="https://www.linkedin.com/in/yusuke-ishida" target="_blank"><i class="fab fa-linkedin"></i></a>
   </div>
