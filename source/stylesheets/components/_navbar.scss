@@ -1,5 +1,5 @@
 .navbar-lewagon {
-  justify-content: space-between;
+  justify-content: center;
   background: #0F1108
 }
 
@@ -7,10 +7,15 @@
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
-}
-
 .navbar-lewagon .nav-item .nav-link {
   color: #FFF8F0;
+}
+
+.navbar-lewagon .nav-item .nav-link:hover {
+  color: #FFF8F0;
+  opacity: 0.8;
+}
+
+.navbar-light .navbar-toggler {
+  color: white;
 }

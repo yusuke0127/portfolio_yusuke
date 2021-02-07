@@ -41,18 +41,24 @@
   width: 100%;
 }
 .project-list {
-  padding-top: 64px;
-  width: 80vw;
-  margin: 0 auto;
-  text-align: center;
+  // padding-top: 64px;
+  // width: 80vw;
+  // margin: 0 auto;
+  // text-align: center;
 }
 .project-container {
-  margin: 0 auto;
+  // margin: 0 auto;
+  // display: flex;
+  // // width: 90vw;
+  // margin-top: 64px;
+  // align-items: center;
+  // margin-bottom: 64px;
+  overflow: scroll;
+  height: 100vh;
+  text-align: center;
   display: flex;
-  // width: 90vw;
-  margin-top: 64px;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 64px;
 }
 
 .project-info {
